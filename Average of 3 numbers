@@ -1,0 +1,24 @@
+import java.util.*;
+
+class Main
+{
+	public static void main(String[] args)
+	{
+		int a,b,c,avg;
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Integer a =");
+		a = sc.nextInt();
+
+		System.out.println("Integer b =");
+		b = sc.nextInt();
+
+		System.out.println("Integer c =");
+		c = sc.nextInt();
+
+		avg = (a + b + c)/3;
+
+		System.out.println("Average of given 3 numbers = " + avg);
+	}
+}
