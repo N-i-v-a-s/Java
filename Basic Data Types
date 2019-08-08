@@ -1,0 +1,15 @@
+class Main
+{
+	public static void main(String[] Nivas)
+	{
+	float f = 123;
+	double d = 123.456789;
+	char c = 'a';
+	boolean b = true;
+
+	System.out.println("Float: " + f);
+	System.out.println("Double: " + d);
+	System.out.println("Character: " + c);
+	System.out.println("Boolean: " + b);
+	}
+}
